@@ -1,6 +1,6 @@
 <?php
 
-namespace API\RMS;
+namespace RMSAPI\RMS;
 
 class RMSAPI {
     

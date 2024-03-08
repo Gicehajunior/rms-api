@@ -32,7 +32,7 @@
     "version": "1.0.0",
     "autoload": {
         "classmap": [
-            "RMSAPI/src/RMSAPI.php"
+            "src/RMSAPI.php"
         ]
     }
     
