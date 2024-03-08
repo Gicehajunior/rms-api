@@ -1,6 +1,6 @@
 <?php
 
-require '../vendor/autoload.php'; 
+namespace API\RMS;
 
 class RMSAPI {
     
