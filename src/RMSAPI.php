@@ -69,12 +69,10 @@ class RMSAPI {
                 }
 
                 copy($file, 'update/' . $file); 
-            }
-            
-            $files = scandir(getcwd() . '/update');
-            foreach ($files as $file) { 
-                $zip->addFile($file);
             } 
+            
+            $directoryIterator = new \RecursiveDirectoryIterator(getcwd() . '/update');
+            $zip->addFilesFromIterator($directoryIterator);
             
             $save = $zip->saveAsFile($zipFileName);
             
