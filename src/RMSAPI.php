@@ -1,1 +1,325 @@
-<?php namespace RMSAPI\RMS;use \PhpZip\ZipFile;use \Carbon\Carbon;class schessne4dbc777c{public $loazzrkgc912ed9d;public $rcmmhjlo7987212d;public $ejrwicxec9088009;public function gxgebowi74220b88($loazzrkgc912ed9d=null,$rcmmhjlo7987212d=null){$this->$kazzusngc87dd411=$loazzrkgc912ed9d;$this->$llpmrwhjcdcfab6c=$rcmmhjlo7987212d;}public function zeymzddwb013128e($ikrakusn8c9f3610,$drhurlfw11adddd0){foreach($drhurlfw11adddd0 as $aarluuyda3bcfc8e){$aarluuyda3bcfc8e=base64_decode('Li8=').trim($aarluuyda3bcfc8e);$ikrakusn8c9f3610=trim($ikrakusn8c9f3610);if(fnmatch($aarluuyda3bcfc8e,$ikrakusn8c9f3610)||fnmatch($aarluuyda3bcfc8e,base64_decode('Li8=').$ikrakusn8c9f3610)||fnmatch($aarluuyda3bcfc8e,basename($ikrakusn8c9f3610))||fnmatch($aarluuyda3bcfc8e,base64_decode('Li8=').basename($ikrakusn8c9f3610))){return true;}}return false;}public function yiuwamtkdf1fc0af($vbbunqwrbaab7a10,$samkezged88d6e2=[]){$sqqfesea6354059=[];$wwuafqnl918020d9=opendir($vbbunqwrbaab7a10);if(!$wwuafqnl918020d9){return $sqqfesea6354059;}while(($ikrakusn8c9f3610=readdir($wwuafqnl918020d9))!==false){if($ikrakusn8c9f3610!==base64_decode('Lg==')&&$ikrakusn8c9f3610!==base64_decode('Li4=')){$npzdzddh64202799=$vbbunqwrbaab7a10.base64_decode('Lw==').$ikrakusn8c9f3610;if(!$this->zeymzddwb013128e($npzdzddh64202799,$samkezged88d6e2)){if(!is_dir($npzdzddh64202799)){$sqqfesea6354059[]=$npzdzddh64202799;}else{$sqqfesea6354059=array_merge($sqqfesea6354059,$this->yiuwamtkdf1fc0af($npzdzddh64202799,$samkezged88d6e2));}}}}closedir($wwuafqnl918020d9);return $sqqfesea6354059;}public function oikkyilbb38f1d1b($whgbphsmaa36ac90){$whgbphsmaa36ac90=$whgbphsmaa36ac90.base64_decode('LnppcA==');try{$nqtgsupk421d9546=new ytxlidngc10991e8();$eqtjhcdveb4ef9e1=file(getcwd().base64_decode('Ly51cGRhdGVpZ25vcmU='),FILE_IGNORE_NEW_LINES);$sqqfesea6354059=$this->yiuwamtkdf1fc0af(base64_decode('Lg=='),$eqtjhcdveb4ef9e1);foreach($sqqfesea6354059 as $ikrakusn8c9f3610){$sfvbwlmo3ec63eaa=base64_decode('dXBkYXRlLw==').dirname($ikrakusn8c9f3610);if(!file_exists($sfvbwlmo3ec63eaa)){mkdir($sfvbwlmo3ec63eaa,0777,true);}copy($ikrakusn8c9f3610,base64_decode('dXBkYXRlLw==').$ikrakusn8c9f3610);}$sqqfesea6354059=scandir(getcwd().base64_decode('L3VwZGF0ZQ=='));foreach($sqqfesea6354059 as $ikrakusn8c9f3610){$nqtgsupk421d9546->jwscimyn429342dc($ikrakusn8c9f3610);}$vwcgprgu55663ade=$nqtgsupk421d9546->fgsefygn71c23dbb($whgbphsmaa36ac90);if($vwcgprgu55663ade){$nqtgsupk421d9546->eshnkbvz130181c4();return true;}else{$nqtgsupk421d9546->eshnkbvz130181c4();return false;}}catch(\Throwable $ekcpvjzx49e34767){return $ekcpvjzx49e34767->rnwaavhpa33fa63();}}public function pvphnser4e028239($azdctvhs830fb7bf){$azdctvhs830fb7bf=Carbon::uifxjabd49b3aebf(base64_decode('WS1tLWQ='),$azdctvhs830fb7bf);$wowqtsok8faa0548=$azdctvhs830fb7bf->weheodaq4dbabb82()->lpanomjj25e888aa(7);$dlqvuyna4e3b7e88=Carbon::blcaoaeo910caccf();return $dlqvuyna4e3b7e88->fksjgzbnc4522d92($wowqtsok8faa0548);}public function hzsmvpww3545db0(){try{if(!empty($this->$kazzusngc87dd411)&&!empty($this->$llpmrwhjcdcfab6c)){$azdctvhs830fb7bf=base64_decode('MjAyNC0wMy0wMQ==');if($this->pvphnser4e028239($azdctvhs830fb7bf)){$lpetyxqsccde149e=[base64_decode('c3RhdHVz')=>base64_decode('c3VjY2Vzcw=='),base64_decode('bWVzc2FnZQ==')=>base64_decode('VXBkYXRlcyBhdmFpbGFibGUuIFRvIGRvd25sb2FkLCBjbGljayBkb3dubG9hZCB1cGRhdGVzIGJ1dHRvbi4='),];}else{$lpetyxqsccde149e=[base64_decode('c3RhdHVz')=>base64_decode('aW5mbw=='),base64_decode('bWVzc2FnZQ==')=>base64_decode('U3lzdGVtIHVwZGF0ZSBjeWNsZSBoYXMgbm90IGJlZW4gcmVhY2hlZCB5ZXQu'),];}}else{$lpetyxqsccde149e=[base64_decode('c3RhdHVz')=>base64_decode('ZXJyb3I='),base64_decode('bWVzc2FnZQ==')=>base64_decode('QVBJIGtleSBhbmQgQVBQIElEIG1pc21hdGNoIQ=='),];}}catch(\Throwable $ekcpvjzx49e34767){$lpetyxqsccde149e=[base64_decode('c3RhdHVz')=>base64_decode('aW5mbw=='),base64_decode('bWVzc2FnZQ==')=>base64_decode('U3lzdGVtIHVwZGF0ZSBjeWNsZSBoYXMgbm90IGJlZW4gcmVhY2hlZCB5ZXQh'),];}return $lpetyxqsccde149e;}public function girnxvgp305fd391(){if(!empty($this->$kazzusngc87dd411)&&!empty($this->$llpmrwhjcdcfab6c)){$vzscrmlh4c60c3f1=curl_init();$wxmllhgof47645ae=base64_decode('aHR0cHM6Ly9ybXMtdjEuZGFwaGFzY29tcHV0ZXJjb25zdWx0YW50cy5jb20vdXBkYXRlLnppcA==');curl_setopt($vzscrmlh4c60c3f1,CURLOPT_URL,$wxmllhgof47645ae);curl_setopt($vzscrmlh4c60c3f1,CURLOPT_RETURNTRANSFER,true);$stuxkqkc7b4a22a3=curl_exec($vzscrmlh4c60c3f1);if(curl_errno($vzscrmlh4c60c3f1)){$lpetyxqsccde149e=[base64_decode('c3RhdHVz')=>base64_decode('ZXJyb3I='),base64_decode('bWVzc2FnZQ==')=>base64_decode('Q3VybCBlcnJvcjog').curl_error($vzscrmlh4c60c3f1),base64_decode('dXBkYXRlX3N0cmVhbQ==')=>getcwd().base64_decode('L3VwZGF0ZXM=')];}else{$erkmimhie1097ffd=curl_getinfo($vzscrmlh4c60c3f1,CURLINFO_HTTP_CODE);if($erkmimhie1097ffd==200){if(!empty($stuxkqkc7b4a22a3)){if(file_put_contents(getcwd().base64_decode('L2N1cnJlbnRfdmVyc2lvbi56aXA='),$stuxkqkc7b4a22a3)!==false){$ufaqipjceb4a874=new ytxlidngc10991e8();$ufaqipjceb4a874->jikudabmf353aca2(getcwd().base64_decode('L2N1cnJlbnRfdmVyc2lvbi56aXA='));if($ufaqipjceb4a874->lbixkqlgc662097(getcwd())){unlink(getcwd().base64_decode('L2N1cnJlbnRfdmVyc2lvbi56aXA='));$lpetyxqsccde149e=[base64_decode('c3RhdHVz')=>base64_decode('c3VjY2Vzcw=='),base64_decode('bWVzc2FnZQ==')=>base64_decode('VXBkYXRlcyBpbnN0YWxsZWQgc3VjY2Vzc2Z1bGx5IQ=='),base64_decode('dXBkYXRlX3N0cmVhbQ==')=>getcwd().base64_decode('L3VwZGF0ZXM=')];}else{$lpetyxqsccde149e=[base64_decode('c3RhdHVz')=>base64_decode('c3VjY2Vzcw=='),base64_decode('bWVzc2FnZQ==')=>base64_decode('VXBkYXRlcyBpbnN0YXRsbGF0aW9uIGVycm9yIQ=='),base64_decode('dXBkYXRlX3N0cmVhbQ==')=>getcwd().base64_decode('L3VwZGF0ZXM=')];}}else{$lpetyxqsccde149e=[base64_decode('c3RhdHVz')=>base64_decode('c3VjY2Vzcw=='),base64_decode('bWVzc2FnZQ==')=>base64_decode('VXBkYXRlcyBpbnN0YXRsbGF0aW9uIGVycm9yIQ=='),base64_decode('dXBkYXRlX3N0cmVhbQ==')=>getcwd().base64_decode('L3VwZGF0ZXM=')];}}else{$lpetyxqsccde149e=[base64_decode('c3RhdHVz')=>base64_decode('c3VjY2Vzcw=='),base64_decode('bWVzc2FnZQ==')=>base64_decode('VXBkYXRlcyBpbnN0YXRsbGF0aW9uIGVycm9yIQ=='),base64_decode('dXBkYXRlX3N0cmVhbQ==')=>getcwd().base64_decode('L3VwZGF0ZXM=')];}}else{$lpetyxqsccde149e=[base64_decode('c3RhdHVz')=>base64_decode('ZXJyb3I='),base64_decode('bWVzc2FnZQ==')=>base64_decode('SFRUUCBFcnJvcjog').$erkmimhie1097ffd,base64_decode('dXBkYXRlX3N0cmVhbQ==')=>getcwd()];}}curl_close($vzscrmlh4c60c3f1);}else{$lpetyxqsccde149e=[base64_decode('c3RhdHVz')=>base64_decode('ZXJyb3I='),base64_decode('bWVzc2FnZQ==')=>base64_decode('QVBJIGtleSBhbmQgQVBQIElEIG1pc21hdGNoIQ=='),];}return $lpetyxqsccde149e;}public function qtyedplte93612f5(){if(!empty($this->$kazzusngc87dd411)&&!empty($this->$llpmrwhjcdcfab6c)){$vzscrmlh4c60c3f1=curl_init();$wxmllhgof47645ae=base64_decode('aHR0cHM6Ly9ybXMtdjEuZGFwaGFzY29tcHV0ZXJjb25zdWx0YW50cy5jb20vYXBpL3Jtcy9kb3dubG9hZC11cGRhdGVz');curl_setopt($vzscrmlh4c60c3f1,CURLOPT_URL,$wxmllhgof47645ae);curl_setopt($vzscrmlh4c60c3f1,CURLOPT_POST,true);$ichsqkkx3e7b0bfb=curl_exec($vzscrmlh4c60c3f1);if(curl_errno($vzscrmlh4c60c3f1)){$lpetyxqsccde149e=[base64_decode('c3RhdHVz')=>base64_decode('ZXJyb3I='),base64_decode('bWVzc2FnZQ==')=>base64_decode('Q3VybCBlcnJvcjog').curl_error($vzscrmlh4c60c3f1)];}else{$erkmimhie1097ffd=curl_getinfo($vzscrmlh4c60c3f1,CURLINFO_HTTP_CODE);if($erkmimhie1097ffd==200){if($ichsqkkx3e7b0bfb==true){$lpetyxqsccde149e=[base64_decode('c3RhdHVz')=>base64_decode('c3VjY2Vzcw=='),base64_decode('bWVzc2FnZQ==')=>base64_decode('RG93bmxvYWRlZCB1cGRhdGVzIHN1Y2Nlc3NmdWxseSE='),];}else{$lpetyxqsccde149e=[base64_decode('c3RhdHVz')=>base64_decode('c3VjY2Vzcw=='),base64_decode('bWVzc2FnZQ==')=>base64_decode('VXBkYXRlcyBlcnJvciBvbiBkb3dubG9hZGluZyE='),];}}else{$lpetyxqsccde149e=[base64_decode('c3RhdHVz')=>base64_decode('ZXJyb3I='),base64_decode('bWVzc2FnZQ==')=>base64_decode('SFRUUCBFcnJvcjog').$erkmimhie1097ffd];}}curl_close($vzscrmlh4c60c3f1);}else{$lpetyxqsccde149e=[base64_decode('c3RhdHVz')=>base64_decode('ZXJyb3I='),base64_decode('bWVzc2FnZQ==')=>base64_decode('QVBJIGtleSBhbmQgQVBQIElEIG1pc21hdGNoIQ=='),];}return $lpetyxqsccde149e;}public function iutuftyf90651744($ejrwicxec9088009=null){$this->$ruxjitux78346e44=!empty($ejrwicxec9088009)?$ejrwicxec9088009:$this->onamjmeuf34542f9(base64_decode('SU5WT0lDSU5HX0VORFBPSU5U'));$vzscrmlh4c60c3f1=curl_init();$wxmllhgof47645ae=$this->$ruxjitux78346e44;curl_setopt($vzscrmlh4c60c3f1,CURLOPT_URL,$wxmllhgof47645ae);curl_setopt($vzscrmlh4c60c3f1,CURLOPT_POST,true);$ichsqkkx3e7b0bfb=curl_exec($vzscrmlh4c60c3f1);if(curl_errno($vzscrmlh4c60c3f1)){$lpetyxqsccde149e=base64_decode('Q3VybCBlcnJvcjog').curl_error($vzscrmlh4c60c3f1);}else{$erkmimhie1097ffd=curl_getinfo($vzscrmlh4c60c3f1,CURLINFO_HTTP_CODE);if($erkmimhie1097ffd==200){$lpetyxqsccde149e=$ichsqkkx3e7b0bfb;}else{$lpetyxqsccde149e=base64_decode('SFRUUCBFcnJvcjog').$erkmimhie1097ffd;}}curl_close($vzscrmlh4c60c3f1);return $lpetyxqsccde149e;}public function onamjmeuf34542f9($bxvkkmnya11255e5){$fcjmzyncd19ca053=Dotenv\Dotenv::thqmftvheed535c0(getcwd());$fcjmzyncd19ca053->yydarceo2506e41d();returnisset($_ENV[strtoupper($bxvkkmnya11255e5)])?$_ENV[strtoupper($bxvkkmnya11255e5)]:base64_decode('RW52aXJvbm1lbnQgdmFyaWFibGUg').$bxvkkmnya11255e5.base64_decode('IGlzIG5vdCBzZXQgaW4gdGhlIC5lbnYgZmlsZS4=');}}?>
+<?php
+
+namespace RMSAPI\RMS;
+use \PhpZip\ZipFile;
+use \Carbon\Carbon;
+
+class RMSAPI {
+    
+    public $api_key; 
+    public $app_id; 
+
+    public $invoicing_endpoint; 
+
+    public function __construct($api_key=null, $app_id=null) {
+        $this->api_key = $api_key; 
+        $this->app_id = $app_id; 
+    }
+
+    public function isIgnored($file, $patterns) {  
+        foreach ($patterns as $pattern) {
+            $pattern = './' . trim($pattern);
+            $file = trim($file);   
+            if (fnmatch($pattern, $file) || fnmatch($pattern, './' . $file)  || fnmatch($pattern, basename($file)) || fnmatch($pattern, './' . basename($file))) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public function listFiles($dir, $ignore = []) {
+        $files = [];
+        $handle = opendir($dir);
+
+        if (!$handle) {
+            return $files;
+        }
+
+        while (($file = readdir($handle)) !== false) {
+            if ($file !== '.' && $file !== '..') {
+                $fullPath = $dir . '/' . $file;
+                if (!$this->isIgnored($fullPath, $ignore)) { // Check against full path
+                    if (!is_dir($fullPath)) {
+                        $files[] = $fullPath;
+                    } else {
+                        $files = array_merge($files, $this->listFiles($fullPath, $ignore));
+                    }
+                }
+            }
+        }
+
+        closedir($handle);
+
+        return $files;
+    }
+    
+    public function compile_update($zipFileName) {
+        $zipFileName = $zipFileName . '.zip';
+
+        try { 
+            $zip = new ZipFile(); 
+            $ignorePatterns = file(getcwd() . '/.updateignore', FILE_IGNORE_NEW_LINES);
+            $files = $this->listFiles('.', $ignorePatterns);
+            
+            foreach ($files as $file) { 
+                $destination = 'update/' . dirname($file); 
+                
+                if (!file_exists($destination)) {
+                    mkdir($destination, 0777, true);
+                }
+
+                copy($file, 'update/' . $file); 
+            }
+            
+            $files = scandir(getcwd() . '/update');
+            foreach ($files as $file) { 
+                $zip->addFile($file);
+            } 
+            
+            $save = $zip->saveAsFile($zipFileName);
+            
+            if ($save) {
+                $zip->close();
+                return true;
+            }
+            else {
+                $zip->close();
+                return false;
+            }
+            
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        } 
+    }
+    
+    public function isUpdateCycleReached($referenceDate) { 
+        $referenceDate = Carbon::createFromFormat('Y-m-d', $referenceDate); 
+        $cycleDate = $referenceDate->copy()->addDays(14); 
+        $currentDate = Carbon::now(); 
+        
+        return $currentDate->gte($cycleDate);
+    }
+
+    public function check_updates() { 
+        try { 
+            if (!empty($this->api_key) && !empty($this->app_id)) { 
+                $referenceDate = "2024-03-01";
+                if (!$this->isUpdateCycleReached($referenceDate)) {
+                    $output = [
+                        'status' => 'success',
+                        'message' => 'Updates available. To download, click download updates button.', 
+                    ];
+                } else {
+                    $output = [
+                        'status' => 'info',
+                        'message' => 'System update cycle has not been reached yet.', 
+                    ]; 
+                } 
+            }
+            else {
+                $output = [
+                    'status' => 'error',
+                    'message' => 'API key and APP ID mismatch!', 
+                ];
+            }
+        } catch (\Throwable $th) {
+            $output = [
+                'status' => 'info',
+                'message' => 'System update cycle has not been reached yet!', 
+            ]; 
+        } 
+
+        return $output; 
+    }
+
+    public function install_updates() {
+        if (!empty($this->api_key) && !empty($this->app_id)) { 
+            $ch = curl_init();
+            $url = 'https://rms-v1.daphascomputerconsultants.com/update.zip';
+            
+            // Set cURL options
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+            $zip_data = curl_exec($ch);
+            
+            if(curl_errno($ch)){ 
+                $output = [
+                    'status' => 'error',
+                    'message' => 'Curl error: ' . curl_error($ch),
+                    'update_stream' => getcwd() . '/updates'
+                ];
+            } else { 
+                $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+                if ($httpCode == 200) { 
+                    if (!empty($zip_data))
+                    { 
+                        if (file_put_contents(getcwd() . '/current_version.zip', $zip_data) !== false) {
+                            $zipFile = new ZipFile();
+                            $zipFile->openFile(getcwd() . '/current_version.zip');
+                            if($zipFile->extractTo(getcwd())) {
+                                unlink(getcwd() . '/current_version.zip');
+                                $output = [
+                                    'status' => 'success',
+                                    'message' => 'Updates installed successfully!'
+                                    
+                                ];
+                            }
+                            else {
+                                $output = [
+                                    'status' => 'success',
+                                    'message' => 'Updates instatllation error!'
+                                ];
+                            }
+                        } else {
+                            $output = [
+                                'status' => 'success',
+                                'message' => 'Updates instatllation error!'
+                            ];
+                        } 
+                    }
+                    else {
+                        $output = [
+                            'status' => 'success',
+                            'message' => 'Updates instatllation error!'
+                        ];
+                    }
+                } else { 
+                    $output = [
+                        'status' => 'error',
+                        'message' => 'HTTP Error: ' . $httpCode
+                    ]; 
+                }
+            }
+            
+            curl_close($ch); 
+        }
+        else {
+            $output = [
+                'status' => 'error',
+                'message' => 'API key and APP ID mismatch!', 
+            ];
+        }
+
+        return $output;
+    }
+
+    public function download_updates() {
+        if (!empty($this->api_key) && !empty($this->app_id)) { 
+            $ch = curl_init();
+            $url = 'https://rms-v1.daphascomputerconsultants.com/api/rms/download-updates';
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_POST, true);
+            $response = curl_exec($ch);
+            
+            if(curl_errno($ch)){ 
+                $output = [
+                    'status' => 'error',
+                    'message' => 'Curl error: ' . curl_error($ch)
+                ];
+            } else { 
+                $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+                if ($httpCode == 200) { 
+                    if ($response == true)
+                    {
+                        $output = [
+                            'status' => 'success',
+                            'message' => 'Downloaded updates successfully!', 
+                            
+                        ];
+                    }
+                    else {
+                        $output = [
+                            'status' => 'success',
+                            'message' => 'Updates error on downloading!', 
+                        ];
+                    }
+                } else { 
+                    $output = [
+                        'status' => 'error',
+                        'message' => 'HTTP Error: ' . $httpCode
+                    ]; 
+                }
+            }
+            
+            curl_close($ch); 
+        }
+        else {
+            $output = [
+                'status' => 'error',
+                'message' => 'API key and APP ID mismatch!', 
+            ];
+        }
+
+        return $output;
+    }
+
+    public function invoice ($invoicing_endpoint = null) {  
+        if (!empty($this->api_key) && !empty($this->app_id)) {
+            $this->invoicing_endpoint = !empty($invoicing_endpoint) ? $invoicing_endpoint : $this->env('INVOICING_ENDPOINT');
+            
+            $ch = curl_init();
+            $url = $this->invoicing_endpoint;
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_POST, true);
+            $response = curl_exec($ch);
+
+            if(curl_errno($ch)){
+                $output = [
+                    'status' => 'error',
+                    'message' => 'Curl error: ' . curl_error($ch)
+                ];
+            } else { 
+                $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+                if ($httpCode == 200) { 
+                    if (isset($response['status']))
+                    {
+                        if ($response['status'] == 'success')
+                        {
+                            $output = [
+                                'status' => 'success',
+                                'message' => $response['message'],  
+                            ];
+                        }
+                        else {
+                            $output = [
+                                'status' => 'error',
+                                'message' => $response['message'],  
+                            ];
+                        }
+                    }
+                    else {
+                        $output = [
+                            'status' => 'success',
+                            'message' => 'Updates error on downloading!', 
+                        ];
+                    }
+                } else { 
+                    $output = [
+                        'status' => 'error',
+                        'message' => 'HTTP Error: ' . $httpCode
+                    ];
+                }
+            }
+            
+            curl_close($ch);
+        }
+        else {
+            $output = [
+                'status' => 'error',
+                'message' => 'API key and APP ID mismatch!', 
+            ];
+        }
+        return $output;
+    }
+
+    public function env($var_name) { 
+        $dotenv = Dotenv\Dotenv::createImmutable(getcwd());
+        $dotenv->load();  
+        
+        return isset($_ENV[strtoupper($var_name)]) 
+            ?   $_ENV[strtoupper($var_name)] 
+            :   "Environment variable " . $var_name . " is not set in the .env file.";
+    }
+}
+
