@@ -24,13 +24,12 @@
     "require": { 
         "php": "^8.1",
         "phpmailer/phpmailer": "^6.1",
-        "nelexa/zip": "^4.0",
-        "nesbot/carbon": "^3.1"
+        "nelexa/zip": "^4.0"
     },
     "require-dev": { 
         "vlucas/phpdotenv": "^5.1"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "autoload": {
         "classmap": [
             "src/RMSAPI.php"
