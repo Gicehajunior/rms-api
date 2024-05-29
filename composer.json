@@ -1,0 +1,39 @@
+{
+    "name": "rms-api/rms-api",
+    "type": "library",
+    "description": "RMS API for RMS Management System.",
+    "keywords": [
+        "php",
+        "api",
+        "rms"
+    ],
+    "homepage": "https://www.github.com/rms-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Giceha Junior",
+            "email": "gicehajunior76@daphascomp.com",
+            "homepage": "https://www.github.com/Gicehajunior"
+        }
+    ],
+    "support": {
+        "email": "support@dapahascomp.com"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": { 
+        "php": "^8.1",
+        "phpmailer/phpmailer": "^6.1",
+        "nelexa/zip": "^4.0"
+    },
+    "require-dev": { 
+        "vlucas/phpdotenv": "^5.1"
+    },
+    "version": "1.0.0",
+    "autoload": {
+        "classmap": [
+            "src/RMSAPI.php"
+        ]
+    }
+    
+}
